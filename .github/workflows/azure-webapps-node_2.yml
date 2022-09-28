@@ -32,7 +32,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: self-hosted:bitlockervm
+    runs-on: self-hosted
     steps:
        
     - uses: azure/login@v1
